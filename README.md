@@ -14,9 +14,7 @@ To install the required packages, run:
 ```bash
 pip install torch opencv-python matplotlib
 
-
 ```
-## Requirements
 Load the MiDaS Model
 The MiDaS model is loaded directly from the PyTorch Hub. In this project, we use the MiDaS_small version for CPU-based operations.
 
@@ -27,4 +25,8 @@ midas = torch.hub.load('intel-isl/MiDaS', 'MiDaS_small')
 midas.to('cpu')
 midas.eval()
 ```
+## Example
+Here is an example of a depth map generated from the input image:
 
+Original Image:
+Depth Map:
