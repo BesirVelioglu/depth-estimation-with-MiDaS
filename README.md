@@ -25,8 +25,4 @@ midas = torch.hub.load('intel-isl/MiDaS', 'MiDaS_small')
 midas.to('cpu')
 midas.eval()
 ```
-## Example
-Here is an example of a depth map generated from the input image:
 
-Original Image:
-Depth Map:
